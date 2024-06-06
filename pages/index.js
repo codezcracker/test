@@ -8,7 +8,7 @@ export default function Home() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     
-    const res = await fetch('/api/data', {
+    const res = await fetch('/api/hello', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
