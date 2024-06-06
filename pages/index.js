@@ -13,7 +13,7 @@ export default function Home() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ value }),
+      body: JSON.stringify({ message }),
     });
     
     const data = await res.json();
